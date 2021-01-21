@@ -1,0 +1,110 @@
+object Form1: TForm1
+  Left = 235
+  Height = 349
+  Top = 151
+  Width = 680
+  Caption = 'Form1'
+  ClientHeight = 349
+  ClientWidth = 680
+  LCLVersion = '2.0.10.0'
+  object nomsp: TEdit
+    Left = 40
+    Height = 23
+    Top = 156
+    Width = 139
+    Color = clGradientInactiveCaption
+    OnChange = nomspChange
+    TabOrder = 0
+  end
+  object presp: TEdit
+    Left = 272
+    Height = 23
+    Top = 156
+    Width = 139
+    Color = clGradientInactiveCaption
+    TabOrder = 1
+  end
+  object numsp: TEdit
+    Left = 512
+    Height = 23
+    Top = 156
+    Width = 139
+    Color = clGradientInactiveCaption
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 80
+    Height = 15
+    Top = 133
+    Width = 57
+    Caption = 'Votre Nom'
+    Color = clDefault
+    ParentColor = False
+    Transparent = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 304
+    Height = 15
+    Top = 133
+    Width = 75
+    Caption = 'Votre Prenom '
+    Color = clDefault
+    ParentColor = False
+    Transparent = False
+  end
+  object Label3: TLabel
+    Left = 544
+    Height = 15
+    Top = 133
+    Width = 72
+    Caption = 'Votre numero'
+    Color = clDefault
+    ParentColor = False
+    Transparent = False
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 52
+    Top = 232
+    Width = 120
+    Caption = 'Ajouter'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 416
+    Height = 52
+    Top = 232
+    Width = 120
+    Caption = 'Supprimer'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 493
+    Height = 25
+    Top = 39
+    Width = 75
+    Caption = 'Rechercher'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object Rech: TEdit
+    Left = 184
+    Height = 23
+    Top = 39
+    Width = 264
+    Color = clGradientInactiveCaption
+    TabOrder = 6
+  end
+  object rslt: TLabel
+    Left = 304
+    Height = 1
+    Top = 316
+    Width = 1
+    Color = clTeal
+    ParentColor = False
+    Transparent = False
+  end
+end
